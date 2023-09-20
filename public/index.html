@@ -40,4 +40,21 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.gpt3__navbar');
+  const homeSection = document.querySelector('#home'); // Change this selector to the ID of your home section
+
+  if (homeSection) {
+    const homeSectionTop = homeSection.offsetTop;
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition > homeSectionTop) {
+      navbar.classList.add('gpt3__navbar-sticky-bg');
+    } else {
+      navbar.classList.remove('gpt3__navbar-sticky-bg');
+    }
+  }
+});
+  </script>
 </html>
