@@ -1,5 +1,5 @@
 
-Demo L  https://gayatribatgeri.github.io/react-app/
+Demo :  https://gayatribatgeri.github.io/react-app/
 
 # Getting Started with Create React App
 
